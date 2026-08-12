@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MaksFash — Fabrics & Fashion Accessories</title>
+  <title>MakFash — Fabrics & Fashion Accessories</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,500&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -14,7 +14,7 @@
   <!-- Site navigation, fixed on scroll and links to page sections -->
   <header class="site-nav">
     <div class="wrap">
-      <a href="#" class="wordmark">MaksFash</a>
+      <a href="#" class="wordmark">MakFash</a>
       <nav class="nav-links" aria-label="Main navigation">
         <a href="#about">About</a>
         <a href="#collection">Collection</a>
@@ -36,7 +36,7 @@
     <div class="hero-content wrap">
       <p class="eyebrow">Fabrics &amp; fashion accessories</p>
       <h1>Tailored in <em>rich African</em><br>textiles.</h1>
-      <p class="hero-sub">Premium Ankara, aso-oke, assorted laces, and Swiss cotton for ceremonies, everyday style, and custom fashion that stands out.</p>
+      <p class="hero-sub">Premium Ankara, aso-oke, assorted laces, and luxury fabrics for ceremonies, everyday style, and custom fashion that stands out.</p>
       <div class="hero-actions">
         <a href="#collection" class="btn btn-primary">Shop fabrics</a>
         <a href="#visit" class="btn btn-ghost">Book a visit</a>
@@ -47,8 +47,8 @@
   <!-- Repeating ticker showing featured fabric categories -->
   <div class="marquee" aria-hidden="true">
     <div class="marquee-track">
-      <span>Ankara</span><span>Aso-oke</span><span>Swiss cotton</span><span>Laces</span><span>Accessories</span>
-      <span>Ankara</span><span>Aso-oke</span><span>Swiss cotton</span><span>Laces</span><span>Accessories</span>
+      <span>Ankara</span><span>Aso-oke</span><span>Luxury fabrics</span><span>Laces</span><span>Accessories</span>
+      <span>Ankara</span><span>Aso-oke</span><span>Luxury fabrics</span><span>Laces</span><span>Accessories</span>
     </div>
   </div>
 
@@ -61,7 +61,7 @@
       <div>
         <span class="label-tag">About us</span>
         <h2>Style that feels rooted in culture.</h2>
-        <p>MaksFash is a home for quality fabrics and finishing touches for men and women who value confidence, comfort, and craftsmanship. We stock assorted laces, men’s Swiss cotton, bold Ankara prints, and authentic aso-oke, all selected to help you create standout pieces for celebrations, workwear, and everyday elegance.</p>
+        <p>MakFash is a home for quality fabrics and finishing touches for men and women who value confidence, comfort, and craftsmanship. We stock assorted laces, men’s luxury fabrics, bold Ankara prints, and authentic aso-oke, all selected to help you create standout pieces for celebrations, workwear, and everyday elegance.</p>
       </div>
     </div>
   </section>
@@ -74,35 +74,83 @@
         <p>Fresh arrivals and timeless staples selected for tailoring and styling.</p>
       </div>
       <div class="collection-grid">
-        <div class="collection-card">
-          <div class="swatch" style="background:linear-gradient(135deg,#f7d9a8 0%, #cb7d47 36%, #7d2d1a 100%);"></div>
+        <a class="collection-card" href="#ankara">
+          <div class="swatch">
+            <img src="assets/img/ankara prints.jpg" alt="Ankara Prints fabric pattern">
+          </div>
           <div class="meta">
             <h3>Ankara Prints</h3>
             <span class="tag">Trending</span>
           </div>
-        </div>
-        <div class="collection-card">
-          <div class="swatch" style="background:linear-gradient(135deg,#f1ecdf 0%, #bcc4b6 28%, #3b4b42 100%);"></div>
+        </a>
+        <a class="collection-card" href="#swiss-cotton">
+          <div class="swatch">
+            <img src="assets/img/cashmere.jpg" alt="Men Swiss Cotton fabric">
+          </div>
           <div class="meta">
             <h3>Men Swiss Cotton</h3>
             <span class="tag">Essential</span>
           </div>
-        </div>
-        <div class="collection-card">
-          <div class="swatch" style="background:linear-gradient(135deg,#f0cf78 0%, #c06c3d 30%, #4a2a27 100%);"></div>
+        </a>
+        <a class="collection-card" href="#aso-oke">
+          <div class="swatch">
+            <img src="assets/img/aso_oke.jpg" alt="Aso-Oke textile detail">
+          </div>
           <div class="meta">
             <h3>Aso-oke</h3>
             <span class="tag">Signature</span>
           </div>
-        </div>
-        <div class="collection-card">
-          <div class="swatch" style="background:linear-gradient(135deg,#f9e1ee 0%, #d58aa8 33%, #60415a 100%);"></div>
+        </a>
+        <a class="collection-card" href="#laces-trims">
+          <div class="swatch">
+            <img src="assets/img/laces.jpg" alt="Laces and trims for tailoring">
+          </div>
           <div class="meta">
             <h3>Laces &amp; Trims</h3>
             <span class="tag">Accessories</span>
           </div>
-        </div>
+        </a>
       </div>
+    </div>
+  </section>
+
+  <section class="fabric-detail" aria-label="Fabric categories">
+    <div class="wrap fabric-stack">
+      <article class="fabric-panel" id="ankara">
+        <img src="assets/img/ankara prints.jpg" alt="Ankara prints in vibrant African fabric colorways">
+        <div class="fabric-copy">
+          <span class="label-tag">Ankara Prints</span>
+          <h3>Bright, playful patterns made for statement looks.</h3>
+          <p>From celebratory gowns to tailored matching sets, our Ankara selection brings culture, color, and confidence into every piece.</p>
+        </div>
+      </article>
+
+      <article class="fabric-panel" id="swiss-cotton">
+        <div class="fabric-copy">
+          <span class="label-tag">Men Swiss Cotton</span>
+          <h3>Soft, structured cotton for sharp everyday styling.</h3>
+          <p>Lightweight, breathable, and easy to tailor, Swiss cotton is ideal for corporate wear, event outfits, and refined casual dressing.</p>
+        </div>
+        <img src="assets/img/cashmere.jpg" alt="Men Swiss cotton fabric in neutral tones">
+      </article>
+
+      <article class="fabric-panel" id="aso-oke">
+        <img src="assets/img/aso_oke.jpg" alt="Aso-oke woven fabric in rich traditional colors">
+        <div class="fabric-copy">
+          <span class="label-tag">Aso-oke</span>
+          <h3>Traditional texture with a premium, ceremonial finish.</h3>
+          <p>Authentic Aso-oke brings rich weave detail and heritage elegance to traditional attire and bespoke fashion pieces.</p>
+        </div>
+      </article>
+
+      <article class="fabric-panel" id="laces-trims">
+        <div class="fabric-copy">
+          <span class="label-tag">Laces &amp; Trims</span>
+          <h3>Finishing details that elevate every design.</h3>
+          <p>Choose from decorative trims, piping, and lace accents to add polish, texture, and a couture finish to your tailoring.</p>
+        </div>
+        <img src="assets/img/laces.jpg" alt="Laces and trims for fashion accessories and finishing touches">
+      </article>
     </div>
   </section>
 
@@ -115,7 +163,7 @@
 
         <div class="info-row">
           <span class="k">Address</span>
-          <span class="v">12 Textile Market Road<span>Lagos, Nigeria</span></span>
+          <span class="v">Fhusion Plaza<span>Abuja, Nigeria</span></span>
         </div>
         <div class="info-row">
           <span class="k">Hours</span>
@@ -123,7 +171,7 @@
         </div>
         <div class="info-row">
           <span class="k">Contact</span>
-          <span class="v">+234 801 234 5678<span>hello@maksfash.com</span></span>
+          <span class="v">+234 801 234 5678<span>hello@makfash.com</span></span>
         </div>
 
         <div class="socials">
