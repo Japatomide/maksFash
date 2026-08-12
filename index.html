@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MaksFash — Fabrics & Fashion Accessories</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,500&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/js/main.js"></script>
+</head>
+<body>
+  <!-- Site navigation, fixed on scroll and links to page sections -->
+  <header class="site-nav">
+    <div class="wrap">
+      <a href="#" class="wordmark">MaksFash</a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#collection">Collection</a>
+        <a href="#visit">Visit</a>
+      </nav>
+      <a href="#visit" class="nav-cta">Visit us</a>
+    </div>
+  </header>
+
+  <!-- Hero section with headline, subtext, and primary calls to action -->
+  <section class="hero">
+    <!-- Background video for the hero section -->
+    <video class="hero-video" autoplay muted loop playsinline preload="auto" aria-hidden="true">
+      <source src="assets/img/heroSectionVid.mp4" type="video/mp4">
+      Your browser does not support background video.
+    </video>
+
+    <div class="hero-content wrap">
+      <p class="eyebrow">Fabrics &amp; fashion accessories</p>
+      <h1>Tailored in <em>rich African</em><br>textiles.</h1>
+      <p class="hero-sub">Premium Ankara, aso-oke, assorted laces, and Swiss cotton for ceremonies, everyday style, and custom fashion that stands out.</p>
+      <div class="hero-actions">
+        <a href="#collection" class="btn btn-primary">Shop fabrics</a>
+        <a href="#visit" class="btn btn-ghost">Book a visit</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Repeating ticker showing featured fabric categories -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Ankara</span><span>Aso-oke</span><span>Swiss cotton</span><span>Laces</span><span>Accessories</span>
+      <span>Ankara</span><span>Aso-oke</span><span>Swiss cotton</span><span>Laces</span><span>Accessories</span>
+    </div>
+  </div>
+
+  <!-- About section describing the brand and product focus -->
+  <section id="about">
+    <div class="wrap about-grid">
+      <div class="about-visual">
+        <span>Curated textures, vibrant color, timeless style.</span>
+      </div>
+      <div>
+        <span class="label-tag">About us</span>
+        <h2>Style that feels rooted in culture.</h2>
+        <p>MaksFash is a home for quality fabrics and finishing touches for men and women who value confidence, comfort, and craftsmanship. We stock assorted laces, men’s Swiss cotton, bold Ankara prints, and authentic aso-oke, all selected to help you create standout pieces for celebrations, workwear, and everyday elegance.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Collection showcase with product cards and trending categories -->
+  <section id="collection">
+    <div class="wrap">
+      <div class="collection-head">
+        <h2>Trending essentials</h2>
+        <p>Fresh arrivals and timeless staples selected for tailoring and styling.</p>
+      </div>
+      <div class="collection-grid">
+        <div class="collection-card">
+          <div class="swatch" style="background:linear-gradient(135deg,#f7d9a8 0%, #cb7d47 36%, #7d2d1a 100%);"></div>
+          <div class="meta">
+            <h3>Ankara Prints</h3>
+            <span class="tag">Trending</span>
+          </div>
+        </div>
+        <div class="collection-card">
+          <div class="swatch" style="background:linear-gradient(135deg,#f1ecdf 0%, #bcc4b6 28%, #3b4b42 100%);"></div>
+          <div class="meta">
+            <h3>Men Swiss Cotton</h3>
+            <span class="tag">Essential</span>
+          </div>
+        </div>
+        <div class="collection-card">
+          <div class="swatch" style="background:linear-gradient(135deg,#f0cf78 0%, #c06c3d 30%, #4a2a27 100%);"></div>
+          <div class="meta">
+            <h3>Aso-oke</h3>
+            <span class="tag">Signature</span>
+          </div>
+        </div>
+        <div class="collection-card">
+          <div class="swatch" style="background:linear-gradient(135deg,#f9e1ee 0%, #d58aa8 33%, #60415a 100%);"></div>
+          <div class="meta">
+            <h3>Laces &amp; Trims</h3>
+            <span class="tag">Accessories</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Visit section with store location, hours, contact details, and social links -->
+  <section id="visit" class="visit">
+    <div class="wrap visit-grid">
+      <div>
+        <span class="label-tag">Visit the store</span>
+        <h2>Find your perfect fabric.</h2>
+
+        <div class="info-row">
+          <span class="k">Address</span>
+          <span class="v">12 Textile Market Road<span>Lagos, Nigeria</span></span>
+        </div>
+        <div class="info-row">
+          <span class="k">Hours</span>
+          <span class="v">Mon – Sat, 9:00am – 7:00pm<span>Closed Sundays</span></span>
+        </div>
+        <div class="info-row">
+          <span class="k">Contact</span>
+          <span class="v">+234 801 234 5678<span>hello@maksfash.com</span></span>
+        </div>
+
+        <div class="socials">
+          <a href="#" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+          </a>
+          <a href="#" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8 14c-1.7-3.1-1.2-5.6 1.8-7.2 1.5-.8 4 .2 4.4 2.4.2 1.4-.9 2.2-1.7 2.8-.9.7-1.1 1.2-.7 1.9.5.9 2.1 2.1 2.7 2.6.6.5 2.1 1.3 1.5 3.2-.6 1.8-5.1 2.8-7.6 1.3-2.3-1.4-3.8-4.8-1.5-6.1Z"/><path d="M7 18.5 5 20l.8-2.8"/></svg>
+          </a>
+          <a href="#" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14 8h2V4h-2a4 4 0 0 0-4 4v2H8v4h2v6h4v-6h3l1-4h-4V8a1 1 0 0 1 1-1Z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="map-card">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 21s-7-6.5-7-11a7 7 0 0 1 14 0c0 4.5-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <p>Open for custom tailoring, styling, and fabric consultations.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer provides legal and brand information -->
+  <footer>
+    <div class="wrap">
+      <p>© <span data-year></span> MaksFash. All rights reserved.</p>
+      <p>Fabrics • Accessories • Style</p>
+    </div>
+  </footer>
+</body>
+</html>
